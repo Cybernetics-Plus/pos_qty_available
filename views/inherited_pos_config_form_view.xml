@@ -1,0 +1,33 @@
+<odoo>
+    <data>
+        <record id="pos_config_view_form_inherit_ip" model="ir.ui.view">
+            <field name="name">pos.config.view.form.inherit.ip</field>
+            <field name="model">pos.config</field>
+            <field name="inherit_id" ref="point_of_sale.pos_config_view_form"/>
+            <field name="arch" type="xml">
+                <xpath expr="//h2[@name='order']" position="before">
+                    <h2>POS Shown Available Product Only</h2>
+                    <div class="row mt16 o_settings_container">
+                        <div class="col-12 col-lg-6 o_setting_box" id="point_qty_available" title="Activate Module on this POS">
+                            <div class="o_setting_left_pane">
+                                <field name="point_qty_available_id"/>
+                            </div>
+                            <div class="o_setting_right_pane">
+                                <label for="point_qty_available_id"/>
+                                <div class="text-muted">
+                                    Product on POS will be shown when that product is available only.
+                                </div>
+                                <div class="content-group mt16" attrs="{'invisible': [('point_qty_available_id', '=', False)]}">
+                                    <div class="row mt16">
+                                        <label string="Minimum Qty Available" for="point_qty_available_num" class="col-4 o_light_label"/>
+                                        <field name="point_qty_available_num" class="col-2" widget="integer"/>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </xpath>
+            </field>
+        </record>
+    </data>
+</odoo>
