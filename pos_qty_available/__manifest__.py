@@ -16,7 +16,7 @@
 
 {
     'name': 'POS Qty Avalible',
-    'version': '15.0.1.0.4',
+    'version': '15.0.1.0.5',
     'summary': """ 
             Show Available Product Only
             .""",
