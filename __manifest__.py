@@ -16,7 +16,7 @@
 
 {
     'name': 'POS Qty Avalible',
-    'version': '15.0.1.0.3',
+    'version': '15.0.1.0.4',
     'summary': """ 
             Show Available Product Only
             .""",
@@ -33,8 +33,8 @@
         'views/inherited_pos_config_form_view.xml',
     ],
     'depends': ['point_of_sale'],
-    "license": 'Other proprietary',
-    'price': 999.00,
+    "license": 'OPL-1',
+    'price': 99.00,
     'currency': 'US',
     'installable': True,
     'application': True,
