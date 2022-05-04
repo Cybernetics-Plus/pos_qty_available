@@ -16,7 +16,7 @@
 
 {
     'name': 'POS Qty Avalible',
-    'version': '15.0.1.0.4',
+    'version': '14.0.1.0.4',
     'summary': """ 
             Show Available Product Only
             .""",
@@ -34,7 +34,7 @@
     ],
     'depends': ['point_of_sale'],
     "license": 'OPL-1',
-    'price': 99.00,
+    'price': 88.00,
     'currency': 'USD',
     'installable': True,
     'application': True,
