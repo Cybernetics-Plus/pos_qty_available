@@ -34,7 +34,7 @@
     ],
     'depends': ['point_of_sale'],
     "license": 'OPL-1',
-    'price': 99.00,
+    'price': 77.00,
     'currency': 'USD',
     'installable': True,
     'application': True,
