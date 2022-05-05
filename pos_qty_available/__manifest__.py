@@ -27,7 +27,7 @@
     'author': 'Cybernetics Plus Co., Ltd.',
     'website': 'https://www.cybernetics.plus',
     'live_test_url': 'https://www.cybernetics.plus/module/pos-show-available-product-only',
-    'images': ['static/description/icon.png'],
+    'images': ['static/description/banner.png'],
     'category': 'Point Of Sale',
     'data': [
         'views/inherited_pos_config_form_view.xml',
