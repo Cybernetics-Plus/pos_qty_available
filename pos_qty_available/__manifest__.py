@@ -16,7 +16,7 @@
 
 {
     'name': 'POS Qty Avalible',
-    'version': '13.0.1.0.4',
+    'version': '13.0.1.0.6',
     'summary': """ 
             Show Available Product Only
             .""",
@@ -27,15 +27,15 @@
     'author': 'Cybernetics Plus Co., Ltd.',
     'website': 'https://www.cybernetics.plus',
     'live_test_url': 'https://www.cybernetics.plus/module/pos-show-available-product-only',
-    'images': ['static/description/icon.png'],
+    'images': ['static/description/banner.png'],
     'category': 'Point Of Sale',
     'data': [
         'views/inherited_pos_config_form_view.xml',
     ],
     'depends': ['point_of_sale'],
     "license": 'OPL-1',
-    'price': 77.00,
-    'currency': 'USD',
+    'price': 77.77,
+    'currency': 'EUR',
     'installable': True,
     'application': True,
     'auto_install': False,
