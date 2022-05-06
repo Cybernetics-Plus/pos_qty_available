@@ -8,3 +8,4 @@ class PosConfig(models.Model):
     point_qty_available_id = fields.Boolean('Activate Module on this POS')
     point_qty_available_num = fields.Integer(string="Sequence", default=1)
 
+ 
