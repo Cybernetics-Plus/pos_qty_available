@@ -15,36 +15,36 @@
 ###################################################################################
 
 {
-    'name': 'POS Qty Avalible',
-    'version': '14.0.1.0.6',
-    'summary': """ 
+    "name": "POS Qty Available",
+    "version": "14.0.1.0.6",
+    "summary": """ 
             Show Available Product Only
             .""",
-    'description': """ 
+    "description": """ 
             Show Available Product Only
             This is a simple solution to reduce POS resources and less time to start devices with a large amount of product list.
             .""",
-    'author': 'Cybernetics Plus Co., Ltd.',
-    'website': 'https://www.cybernetics.plus',
-    'live_test_url': 'https://www.cybernetics.plus/module/pos-show-available-product-only',
-    'images': ['static/description/banner.png'],
-    'category': 'Point Of Sale',
-    'data': [
-        'views/inherited_pos_config_form_view.xml',
+    "author": "Cybernetics+",
+    "website": "https://www.cybernetics.plus",
+    "live_test_url": "https://www.cybernetics.plus/module/pos-show-available-product-only",
+    "images": ["static/description/banner.gif"],
+    "category": "Point Of Sale",
+    "data": [
+        "views/inherited_pos_config_form_view.xml",
     ],
-    'depends': ['point_of_sale'],
-    "license": 'OPL-1',
-    'price': 15.00,
-    'currency': 'USD',
-    'installable': True,
-    'application': True,
-    'auto_install': False,
-    'contributors': [
-        'Developer <dev@cybernetics.plus>',
+    "depends": ["point_of_sale"],
+    "license": "OPL-1",
+    "price": 15.00,
+    "currency": "USD",
+    "installable": True,
+    "application": True,
+    "auto_install": False,
+    "contributors": [
+        "Developer <dev@cybernetics.plus>",
     ],
-    'assets': {
-        'point_of_sale.assets': [
-             'pos_qty_available/static/src/js/pos_qty_available.js',
+    "assets": {
+        "point_of_sale.assets": [
+             "pos_qty_available/static/src/js/pos_qty_available.js",
         ],
     },
 }
