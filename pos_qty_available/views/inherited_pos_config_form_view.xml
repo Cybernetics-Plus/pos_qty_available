@@ -15,7 +15,7 @@
                             <div class="o_setting_right_pane">
                                 <label for="point_qty_available_id"/>
                                 <div class="text-muted">
-                                    Product on POS will be shown when that product is available only.
+                                    Product on POS will be Shown when that Product is Available Only.
                                 </div>
                                 <div class="content-group mt16" attrs="{'invisible': [('point_qty_available_id', '=', False)]}">
                                     <div class="row mt16">
