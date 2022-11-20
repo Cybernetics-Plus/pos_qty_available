@@ -24,7 +24,7 @@
             Show Available Product Only
             This is a simple solution to reduce POS resources and less time to start devices with a large amount of product list.
             .""",
-    "author": "Cybernetics+",
+    "author": "Cybernetics Plus",
     "website": "https://www.cybernetics.plus",
     "live_test_url": "https://www.cybernetics.plus/module/pos-show-available-product-only",
     "images": ["static/description/banner.gif"],
